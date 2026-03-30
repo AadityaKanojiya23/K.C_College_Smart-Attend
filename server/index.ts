@@ -6,13 +6,11 @@ import * as path from "path";
 
 const app = express();
 const log = console.log;
-
 declare module "http" {
   interface IncomingMessage {
     rawBody: unknown;
   }
 }
-
 function setupCors(app: express.Application) {
   app.use((req, res, next) => {
     const origins = new Set<string>();
