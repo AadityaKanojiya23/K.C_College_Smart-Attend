@@ -33,7 +33,6 @@ export function ErrorFallback({ error, resetError }: ErrorFallbackProps) {
   };
 
   const [isModalVisible, setIsModalVisible] = useState(false);
-
   const handleRestart = async () => {
     try {
       await reloadAppAsync();
