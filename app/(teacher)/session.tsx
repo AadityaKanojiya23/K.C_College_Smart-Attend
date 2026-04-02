@@ -25,7 +25,7 @@ interface Session {
   class: string;
   subject: string;
   qrToken: string;
-  isActive: boolean;
+  isActive: boolean; 
   createdAt: string;
   expiryTime: string;
 }
