@@ -29,7 +29,7 @@ interface Session {
   createdAt: string;
   expiryTime: string;
 }
-
+ 
 const SESSION_DURATION = 60;
 
 export default function TeacherSessionScreen() {
