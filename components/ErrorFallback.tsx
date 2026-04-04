@@ -12,7 +12,7 @@ import {
 } from "react-native";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 import { Feather } from "@expo/vector-icons";
-
+ 
 export type ErrorFallbackProps = {
   error: Error;
   resetError: () => void;
