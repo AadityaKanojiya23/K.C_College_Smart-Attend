@@ -173,7 +173,6 @@ export function ErrorFallback({ error, resetError }: ErrorFallbackProps) {
     </View>
   );
 }
-
 const styles = StyleSheet.create({
   container: {
     flex: 1,
