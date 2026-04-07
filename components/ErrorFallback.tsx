@@ -17,7 +17,6 @@ export type ErrorFallbackProps = {
   error: Error;
   resetError: () => void;
 };
-
 export function ErrorFallback({ error, resetError }: ErrorFallbackProps) {
   const colorScheme = useColorScheme();
   const isDark = colorScheme === "dark";
