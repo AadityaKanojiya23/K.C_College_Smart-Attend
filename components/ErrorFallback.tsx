@@ -99,7 +99,6 @@ export function ErrorFallback({ error, resetError }: ErrorFallbackProps) {
           </Text>
         </Pressable>
       </View>
-
       {__DEV__ ? (
         <Modal
           visible={isModalVisible}
