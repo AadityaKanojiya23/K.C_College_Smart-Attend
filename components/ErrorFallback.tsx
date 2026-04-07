@@ -55,7 +55,6 @@ export function ErrorFallback({ error, resetError }: ErrorFallbackProps) {
     android: "monospace",
     default: "monospace",
   });
-
   return (
     <View style={[styles.container, { backgroundColor: theme.background }]}>
       {__DEV__ ? (
