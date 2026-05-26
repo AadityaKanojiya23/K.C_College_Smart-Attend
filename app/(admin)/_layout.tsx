@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { isLiquidGlassAvailable } from 'expo-glass-effect';
-import { Tabs, router } from 'expo-router';
+import { Tabs, router } from 'expo-router'; 
 import { NativeTabs, Icon, Label } from 'expo-router/unstable-native-tabs';
 import { BlurView } from 'expo-blur';
 import { Platform, StyleSheet, View } from 'react-native'; 
