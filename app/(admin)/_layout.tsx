@@ -45,7 +45,7 @@ function ClassicAdminTabs() {
           backgroundColor: isIOS ? 'transparent' : Colors.card,
           borderTopWidth: isWeb ? 1 : 0,
           borderTopColor: Colors.border,
-          elevation: 0,
+          elevation: 0, 
           ...(isWeb ? { height: 84 } : {}),
         },
         tabBarBackground: () =>
