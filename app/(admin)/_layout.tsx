@@ -8,7 +8,7 @@ import { Ionicons } from '@expo/vector-icons';
 import Colors from '@/constants/colors';
 import { useAuth } from '@/contexts/AuthContext';
 
-function NativeAdminTabs() {
+function NativeAdminTabs() { 
   return (
     <NativeTabs>
       <NativeTabs.Trigger name="index">
