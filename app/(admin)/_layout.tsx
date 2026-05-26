@@ -5,7 +5,7 @@ import { NativeTabs, Icon, Label } from 'expo-router/unstable-native-tabs';
 import { BlurView } from 'expo-blur';
 import { Platform, StyleSheet, View } from 'react-native'; 
 import { Ionicons } from '@expo/vector-icons';
-import Colors from '@/constants/colors';
+import Colors from '@/constants/colors'; 
 import { useAuth } from '@/contexts/AuthContext'; 
 
 function NativeAdminTabs() { 
